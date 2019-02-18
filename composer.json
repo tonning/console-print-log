@@ -1,0 +1,51 @@
+{
+    "name": "tonning/console-print-log",
+    "description": "A Laravel package to print log messages if run in the console.",
+    "keywords": [
+        "tonning",
+        "console-print-log"
+    ],
+    "homepage": "https://github.com/tonning/console-print-log",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tonning",
+            "email": "tonning@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.7.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tonning\\ConsolePrintLog\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tonning\\ConsolePrintLog\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tonning\\ConsolePrintLog\\ConsolePrintLogServiceProvider"
+            ]
+        }
+    }
+}
