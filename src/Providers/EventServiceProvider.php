@@ -1,6 +1,6 @@
 <?php
 
-namespace Helix\Lego\Providers;
+namespace Tonning\ConsolePrintLog\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 

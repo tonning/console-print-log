@@ -1,6 +1,6 @@
 <?php
 
-namespace Helix\Lego\Listeners;
+namespace Tonning\ConsolePrintLog\Listeners;
 
 use Illuminate\Log\Events\MessageLogged;
 use Symfony\Component\Console\Output\ConsoleOutput;
