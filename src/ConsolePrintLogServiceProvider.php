@@ -3,6 +3,7 @@
 namespace Tonning\ConsolePrintLog;
 
 use Illuminate\Support\ServiceProvider;
+use Tonning\ConsolePrintLog\Providers\EventServiceProvider;
 
 class ConsolePrintLogServiceProvider extends ServiceProvider
 {

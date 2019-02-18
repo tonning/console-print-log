@@ -8,7 +8,7 @@ class EventServiceProvider extends ServiceProvider
 {
     protected $listen = [
         \Illuminate\Log\Events\MessageLogged::class => [
-            \Helix\Lego\Listeners\ConsolePrintMessage::class,
+            \Tonning\ConsolePrintLog\Listeners\ConsolePrintMessage::class,
         ],
     ];
 
